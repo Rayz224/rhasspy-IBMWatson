@@ -7,10 +7,10 @@ apikey=""
 url=""
 
 # Voice  (see https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voices#listVoices for a complete list)
-voice="en-GB_JamesV3Voice"
+voice=""
 
 # Folder to cache the files - this also contains the .txt index file with a list of all generated files
-cache="/profiles/en/tts/cache"
+cache=""
 
 ###### Do not change anything below this
 
