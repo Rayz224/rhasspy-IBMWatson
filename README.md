@@ -3,6 +3,9 @@ Simple shell script to use *Watson* ([IBM's cloud TTS service](https://cloud.ibm
 
 Based on the [jarvis_says.sh](https://github.com/tschmidty69/homeassistant-config/blob/master/snips/jarvis_says.sh) script from [tschmidty69](https://github.com/tschmidty69)'s Home Assistant config (his was for Snips and used Amazon Polly TTS) with help from this [thread](https://community.rhasspy.org/t/custom-text-to-speech/1187)
  on the Rhasspy forums
+ 
+ Runs only on Rhasspy **2.5.11** or later
+ 
 ## Preparation
 1. Create an account on IBM Cloud and register for the TTS lite plan here: https://cloud.ibm.com/catalog/services/text-to-speech
 - Use the closest location
