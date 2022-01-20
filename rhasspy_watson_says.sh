@@ -44,7 +44,7 @@ then
     cat "${cachefile}"
 else
     # cachefile not found, running Watson
-    curl -X GET -u apikey:$apikey --insecure "$url/v1/synthesize?text=$data&voice=$voice" -H "Accept: audio/$format" -o $cachefile
+    curl -X GET -u apikey:$apikey --cacert /etc/ssl/certs/ca-certificates.crt "$url/v1/synthesize?text=$data&voice=$voice" -H "Accept: audio/$format" -o $cachefile
     # update index
     echo "$hash" "$md5string" >> "$cache"/cacheindex.txt
     cat "${cachefile}"
