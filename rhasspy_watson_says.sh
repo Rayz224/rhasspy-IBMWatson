@@ -22,12 +22,6 @@ text=$1
 # Encode spaces for url
 data="${text// /%20}"
 
-# Random file name
-name=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 20 | head -n 1)
-
-# Target file to return to rhasspy-tts (wav)
-outfile="${cache}/${name}.wav"
-
 # check/create cache if needed
 mkdir -pv "$cache"
 
