@@ -4,6 +4,8 @@ Simple shell script to use *Watson* ([IBM's cloud TTS service](https://cloud.ibm
 Based on the [jarvis_says.sh](https://github.com/tschmidty69/homeassistant-config/blob/master/snips/jarvis_says.sh) script from [tschmidty69](https://github.com/tschmidty69)'s Home Assistant config (his was for Snips and used Amazon Polly TTS) with help from this [thread](https://community.rhasspy.org/t/custom-text-to-speech/1187)
  on the Rhasspy forums
  
+ [Nortonko](https://github.com/Nortonko) made an adaptation to this script for Microsoft's Azure Speech service [rhasspy-MSAzure](https://github.com/Nortonko/rhasspy-MSAzure)
+ 
  Runs only on Rhasspy **2.5.11** or later
  
 ## Preparation
